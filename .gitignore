@@ -9,6 +9,7 @@
 *.db-wal
 *.sqlite
 *.sqlite3
+!backend/pulsegrid.db
 
 # Python
 __pycache__/
@@ -16,12 +17,13 @@ __pycache__/
 *$py.class
 *.egg-info/
 .venv/
+.venv*/
 venv/
 .pytest_cache/
 .ruff_cache/
 
-# ML large binary artifacts (keep .gitkeep and model_audit.json)
-backend/ml/artifacts/*.joblib
+# ML large binary artifacts (tracked for zero-setup demo execution)
+# backend/ml/artifacts/*.joblib
 
 # Node / Frontend
 node_modules/

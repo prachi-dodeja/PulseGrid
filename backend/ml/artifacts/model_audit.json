@@ -13,7 +13,7 @@
   "at_risk_recall": 0.913,
   "macro_f1": 0.598,
   "roc_auc": 0.8573,
-  "mae": 3.4026,
+  "mae": 3.3206,
   "brier_score": 0.0196,
   "calibration_curve": [
     {
@@ -110,7 +110,7 @@
       "model_name": "RandomForestClassifier",
       "at_risk_recall": 0.8696,
       "macro_f1": 0.5348,
-      "roc_auc": 0.8798,
+      "roc_auc": 0.8787,
       "confusion_matrix": [
         [
           9,
@@ -139,25 +139,25 @@
       ],
       "cv_at_risk_recall_mean": 0.924,
       "cv_at_risk_recall_std": 0.0562,
-      "cv_macro_f1_mean": 0.6259,
-      "cv_macro_f1_std": 0.045,
-      "cv_roc_auc_mean": 0.8823
+      "cv_macro_f1_mean": 0.6389,
+      "cv_macro_f1_std": 0.0536,
+      "cv_roc_auc_mean": 0.8812
     },
     {
       "model_name": "GradientBoostingClassifier",
       "at_risk_recall": 0.913,
-      "macro_f1": 0.5595,
-      "roc_auc": 0.8681,
+      "macro_f1": 0.555,
+      "roc_auc": 0.8605,
       "confusion_matrix": [
         [
-          7,
-          10,
+          6,
+          11,
           0,
           0
         ],
         [
-          8,
-          12,
+          7,
+          13,
           0,
           0
         ],
@@ -176,8 +176,8 @@
       ],
       "cv_at_risk_recall_mean": 0.9567,
       "cv_at_risk_recall_std": 0.0217,
-      "cv_macro_f1_mean": 0.5973,
-      "cv_macro_f1_std": 0.0546,
+      "cv_macro_f1_mean": 0.6094,
+      "cv_macro_f1_std": 0.0438,
       "cv_roc_auc_mean": 0.8623
     }
   ],
@@ -185,7 +185,7 @@
     {
       "feature": "sub_75_att_count",
       "label": "Subjects Below 75% Attendance",
-      "importance": 0.0979
+      "importance": 0.098
     },
     {
       "feature": "min_bunk_budget",
@@ -205,7 +205,7 @@
     {
       "feature": "att_recent_2w",
       "label": "Recent 2-Week Attendance %",
-      "importance": 0.0678
+      "importance": 0.0677
     },
     {
       "feature": "z_internal_mean",
@@ -235,7 +235,7 @@
     {
       "feature": "att_mean",
       "label": "Overall Attendance %",
-      "importance": 0.0452
+      "importance": 0.0453
     },
     {
       "feature": "assign_recent_2w",
@@ -275,7 +275,7 @@
     {
       "feature": "z_assign_mean",
       "label": "Cohort Assignment Z-Score",
-      "importance": 0.0219
+      "importance": 0.022
     },
     {
       "feature": "assign_mean",
